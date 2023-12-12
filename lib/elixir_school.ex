@@ -15,8 +15,8 @@ defmodule ElixirSchool do
   """
   def hello(atom) do
     case atom do
-      :en ->"Hello, world"
-      :pt ->"Olá, mundo"
+      :en -> "Hello, world"
+      :pt -> "Olá, mundo"
       _default -> "Hi,stranger!"
     end
   end
